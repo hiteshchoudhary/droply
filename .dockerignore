@@ -1,0 +1,45 @@
+node_modules
+npm-debug.log
+.next/cache
+.next/build-manifest.json
+.next/prerender-manifest.json
+.next/react-loadable-manifest.json
+.next/server
+.next/static/cache
+.next/static/chunks/pages/_app.js
+.next/static/chunks/pages/_document.js
+.next/static/runtime
+.next/static/media
+.next/trace
+
+# Local environment and editor files
+.env
+.env.local
+.env.development
+.env.test
+.env.production.local
+.DS_Store
+.vscode
+.idea
+*.log
+
+# Build outputs for local development (you said you build locally too)
+.next
+out
+dist
+build
+
+# OS generated files
+Thumbs.db
+desktop.ini
+
+# Git files
+.git
+.gitignore
+
+# Docker files (optional if you want)
+Dockerfile*
+docker-compose.yml
+
+# Others
+*.tsbuildinfo
